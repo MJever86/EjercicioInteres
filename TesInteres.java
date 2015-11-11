@@ -13,10 +13,10 @@ public class TesInteres{
         System.out.println("Introduce el valor del capital, tiempo y tasa de interés: ");
         //lectura de lo datos
         double capital=banco.nextDouble();
-        double interes=banco.nextDouble();
+        double tasaInteres=banco.nextDouble();
         double tiempo=banco.nextDouble();
         //llamada al método calcularInteres
-        System.out.println("El interes proporcional es: "+Interes.calcularInter(capital,interes,tiempo));
+        System.out.println("El interes proporcional es: "+Interes.calcularInter(capital,tasaInteres,tiempo));
         //mostramos por pantalla el valor del interés
        
    }
